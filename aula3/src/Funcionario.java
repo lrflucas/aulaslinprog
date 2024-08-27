@@ -10,8 +10,8 @@ public class Funcionario {
 
     public void desconto(){
 
-        desconto = (salariobruto - (15.0 / 100.0));
-        System.out.println("Dedução INSS: "+ total);
+        desconto = salariobruto * 0.15;
+        System.out.println("Dedução INSS: "+ desconto);
 
     }
 
