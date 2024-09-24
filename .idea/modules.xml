@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/NotaAula1/NotaAula1.iml" filepath="$PROJECT_DIR$/NotaAula1/NotaAula1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NotaAula2/NotaAula2.iml" filepath="$PROJECT_DIR$/NotaAula2/NotaAula2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NotaAula3/NotaAula3.iml" filepath="$PROJECT_DIR$/NotaAula3/NotaAula3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NotaAula2/Questao1/Questao1.iml" filepath="$PROJECT_DIR$/NotaAula2/Questao1/Questao1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NotaAula2/Questao2/Questao2.iml" filepath="$PROJECT_DIR$/NotaAula2/Questao2/Questao2.iml" />
       <module fileurl="file://$PROJECT_DIR$/aula2/aula2.iml" filepath="$PROJECT_DIR$/aula2/aula2.iml" />
       <module fileurl="file://$PROJECT_DIR$/aula3/aula3.iml" filepath="$PROJECT_DIR$/aula3/aula3.iml" />
       <module fileurl="file://$PROJECT_DIR$/aula4/aula4.iml" filepath="$PROJECT_DIR$/aula4/aula4.iml" />
