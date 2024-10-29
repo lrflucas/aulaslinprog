@@ -15,6 +15,8 @@
       <module fileurl="file://$PROJECT_DIR$/aulaslinprog.iml" filepath="$PROJECT_DIR$/aulaslinprog.iml" />
       <module fileurl="file://$PROJECT_DIR$/aula8/exercicio1/exercicio1.iml" filepath="$PROJECT_DIR$/aula8/exercicio1/exercicio1.iml" />
       <module fileurl="file://$PROJECT_DIR$/aula4/exercicios/exercicios.iml" filepath="$PROJECT_DIR$/aula4/exercicios/exercicios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula8/listaexercicio1/listaexercicio1.iml" filepath="$PROJECT_DIR$/aula8/listaexercicio1/listaexercicio1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula8/listaexercicio2/listaexercicio2.iml" filepath="$PROJECT_DIR$/aula8/listaexercicio2/listaexercicio2.iml" />
     </modules>
   </component>
 </project>
