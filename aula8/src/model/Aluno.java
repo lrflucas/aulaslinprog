@@ -1,3 +1,5 @@
+package model;
+
 import com.sun.security.jgss.GSSUtil;
 
 public class Aluno extends Pessoa {
@@ -21,7 +23,7 @@ public class Aluno extends Pessoa {
 
     @Override
     public void quemSouEu() {
-        System.out.println("Aluno");
+        System.out.println("model.Aluno");
     }
 
     public void calcularMedia() {
@@ -45,7 +47,7 @@ public class Aluno extends Pessoa {
 
     @Override
     public String toString() {
-        return "Aluno{" +
+        return "model.Aluno{" +
                 "nome='" + nome + '\'' +
                 ", matricula=" + matricula +
                 ", nota1=" + nota1 +

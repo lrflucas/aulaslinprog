@@ -1,3 +1,5 @@
+package model;
+
 public class Professor extends Pessoa implements Explicacao, ControleFinanceiro {
 
     private double salario;
@@ -28,7 +30,7 @@ public class Professor extends Pessoa implements Explicacao, ControleFinanceiro 
 
     @Override
     public String toString() {
-        return "Professor{" +
+        return "model.Professor{" +
                 "nome='" + nome + '\'' +
                 ", matricula=" + matricula +
                 ", salario=" + salario +
@@ -39,7 +41,7 @@ public class Professor extends Pessoa implements Explicacao, ControleFinanceiro 
 
     @Override
     public void quemSouEu() {
-        System.out.println("Professor");
+        System.out.println("model.Professor");
     }
 
     @Override

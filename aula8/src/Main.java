@@ -1,3 +1,6 @@
+import model.*;
+import service.PessoaService;
+
 import java.util.Scanner;
 
 public class Main {
@@ -5,6 +8,35 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+
+        Pessoa p = new Professor();
+        PessoaService ps = new PessoaService();
+
+        System.out.print("Digite o nome: ");
+        p.setNome(sc.next());
+
+        System.out.print("Digite a matrícula: ");
+        p.setMatricula(sc.nextInt());
+
+        //criar
+        ps.cadastrarPessoas(p);
+        System.out.println(ps.listar());
+
+        //atualizar
+        System.out.print("Digite o nome da pessoa que deseja atualizar: ");
+        String nome = sc.next();
+        System.out.print("Digite o novo nome da pessoa: ");
+        String novoNome = sc.next();
+        ps.atualizar(nome, novoNome);
+
+        //deletar
+        System.out.print("Digite o nome da pessoa que deseja deletar: ");
+        String nomeDeletar = sc.next();
+        ps.deletar(nomeDeletar);
+
+
+
+        /*
         Professor prof = new Professor();
         Aluno a = new Aluno();
         Disciplina d = new Disciplina();
@@ -41,6 +73,8 @@ public class Main {
         System.out.println("Informações do aluno:");
         a.calcularMedia();
         System.out.println(a);
+
+         */
 
     }
 }

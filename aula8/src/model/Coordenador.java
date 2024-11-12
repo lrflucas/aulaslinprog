@@ -1,8 +1,10 @@
+package model;
+
 public class Coordenador extends Pessoa implements Explicacao, ControleFinanceiro {
 
     @Override
     public void quemSouEu() {
-        System.out.println("Coordenador");
+        System.out.println("model.Coordenador");
     }
 
     @Override

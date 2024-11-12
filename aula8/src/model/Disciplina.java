@@ -1,3 +1,5 @@
+package model;
+
 public class Disciplina {
     private String nome;
     private Aluno aluno;
@@ -17,7 +19,7 @@ public class Disciplina {
 
     @Override
     public String toString() {
-        return "Disciplina{" +
+        return "model.Disciplina{" +
                 "nome='" + nome + '\'' +
                 ", aluno=" + aluno +
                 ", professor=" + professor +
